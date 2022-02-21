@@ -1,0 +1,17 @@
+.service {
+	text-align: center;
+	background-color: var(--light-gray);
+	padding: 3em 3.2em;
+}
+
+.service__text {
+	text-transform: uppercase;
+	margin-top: 0.7em;
+	font-size: 1.1rem;
+}
+
+.service__image {
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}

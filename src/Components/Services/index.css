@@ -1,0 +1,25 @@
+.services {
+	display: flex;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;
+	display: grid; 
+	grid-auto-columns: 1fr; 
+	grid-auto-rows: 1fr; 
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-template-rows: 1fr 1fr; 
+	gap: 0px 0px; 
+	grid-template-areas: 
+		"service_1 service_2 service_3"
+		"service_4 service_5 service_6"; 
+	grid-column-gap: 1em;
+	grid-row-gap: 1em;
+}
+
+#service_1 { grid-area: service_1; }
+#service_2 { grid-area: service_2; }
+#service_3 { grid-area: service_3; }
+#service_4 { grid-area: service_4; }
+#service_5 { grid-area: service_5; }
+#service_6 { grid-area: service_6; }

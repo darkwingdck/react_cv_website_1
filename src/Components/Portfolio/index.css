@@ -1,0 +1,33 @@
+.portfolio {  display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-auto-columns: 1fr;
+	grid-auto-rows: 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	margin-top: 6em;
+	grid-template-areas:
+		"portfolio-elem-1 portfolio-elem-2 portfolio-elem-3 portfolio-elem-4"
+		"portfolio-elem-5 portfolio-elem-6 portfolio-elem-7 portfolio-elem-8";
+}
+
+.portfolio * {
+	margin-bottom: -5px;
+}
+
+.portfolio-elem-1 { grid-area: portfolio-elem-1; }
+
+.portfolio-elem-2 { grid-area: portfolio-elem-2; }
+
+.portfolio-elem-3 { grid-area: portfolio-elem-3; }
+
+.portfolio-elem-4 { grid-area: portfolio-elem-4; }
+
+.portfolio-elem-5 { grid-area: portfolio-elem-5; }
+
+.portfolio-elem-6 { grid-area: portfolio-elem-6; }
+
+.portfolio-elem-7 { grid-area: portfolio-elem-7; }
+
+.portfolio-elem-8 { grid-area: portfolio-elem-8; }
+  

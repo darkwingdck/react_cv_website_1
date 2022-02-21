@@ -1,0 +1,37 @@
+.request-bg {
+	background-color: var(--accent);
+	margin-top: 5em;
+	padding: 1em 0;
+}
+
+.request {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.request__text {
+	color: white;
+}
+
+.request__text p:nth-child(1) {
+	font-size: 2rem;
+}
+
+.request-button {
+	display: flex;
+	align-items: center;
+	padding: 0 1em;
+	cursor: pointer;
+	height: 3em;
+	background-color: white;
+	font-size: 0.8rem;
+}
+
+.request-button__icon {
+	margin-right: 1em;
+}

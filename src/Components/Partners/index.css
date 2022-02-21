@@ -1,0 +1,18 @@
+.partners {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.partners-bg .block-name {
+	margin-top: 0;
+}
+
+.partners-bg {
+	background-color: var(--dark);
+	padding-bottom: 2.5em;
+	padding: 3.6em 0;
+	margin-top: 5em;
+}
